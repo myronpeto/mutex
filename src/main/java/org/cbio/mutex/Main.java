@@ -61,7 +61,7 @@ public class Main
         /**
 	 * The name of the output file.
 	 */
-        public static String outFileName;`
+        public static String outFileName;
 
 	/**
 	 * Name of the signaling network file. No need to specify this to use the default network.
@@ -89,8 +89,7 @@ public class Main
 	 */
 	private static Integer geneLimit;
 
-	/:1
-**
+	/**
 	 * A file to provide ordering of genes, higher priority first.
 	 */
 	private static String geneRankingFile;
